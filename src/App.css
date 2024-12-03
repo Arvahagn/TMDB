@@ -1,0 +1,79 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+}
+
+.app-header h1 {
+  font-size: 2.5em;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.trending-section {
+  margin-top: 30px;
+}
+
+.trending-section h2 {
+  font-size: 2em;
+}
+
+.trending-list {
+  display: flex;
+  overflow-x: auto;
+}
+
+.trending-item {
+  margin-right: 15px;
+  text-align: center;
+}
+
+.trending-item img {
+  width: 150px;
+  height: 225px;
+  object-fit: cover;
+}
+
+
+.trailers-section {
+  margin-top: 30px;
+}
+
+.trailers-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.trailer-item {
+  text-align: center;
+}
+
+.trailer-item p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #555;
+}
+
+iframe {
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+
+
